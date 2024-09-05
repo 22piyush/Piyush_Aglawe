@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+
+.navbar{
+    
+}
+.navbar-container{
+     background-color:rgb(255, 255, 255);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 10px 55px;
+     padding-right: 80px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.navbar-logo{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+.myImg{
+   border-radius: 50%;
+   height: 50px;
+   filter: brightness(1.2);
+}
+.headings{
+    font-family: "Reddit Sans Condensed", sans-serif;
+    font-weight: 800;
+    color: black;
+}
+.navbar-links ul{
+  display: flex;
+  list-style: none;
+  gap: 55px;
+  font-family: "Reddit Sans Condensed", sans-serif;
+  font-weight: 700;
+}
+.navbar-links ul li a{
+    color: black;
+}

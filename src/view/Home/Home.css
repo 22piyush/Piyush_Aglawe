@@ -1,0 +1,27 @@
+
+.heading-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    gap: 70px;
+}
+.my-info h1{
+    font-weight: 750;
+    font-size: 41px;
+    text-align: center;
+}
+.my-info{
+    width: 40%;
+}
+.my-info p{
+    font-weight: 350;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1.3px;
+    line-height: 1.5;
+}
+.person-image{
+    mix-blend-mode: multiply;
+    height: 600px;
+}
