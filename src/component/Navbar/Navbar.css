@@ -10,7 +10,7 @@
      justify-content: space-between;
      padding: 10px 55px;
      padding-right: 80px;
-     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); */
 }
 .navbar-logo{
    display: flex;
