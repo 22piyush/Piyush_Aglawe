@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import piyushImg from "../Navbar/piyush phoooo.jpg";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -13,16 +14,16 @@ function Navbar() {
         <div className="navbar-links">
           <ul>
             <li>
-              <a href="#">HOME</a>
+              <Link to="#">HOME</Link>
             </li>
             <li>
-              <a href="#">ABOUT</a>
+              <Link to="#">ABOUT</Link>
             </li>
             <li>
-              <a href="#">PROJECTS</a>
+              <Link to="#">PROJECTS</Link>
             </li>
             <li>
-              <a href="#">CONTACT</a>
+              <Link to="#">CONTACT</Link>
             </li>
           </ul>
         </div>
